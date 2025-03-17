@@ -1,6 +1,5 @@
 {
-    "rewrites": [
-      { "source": "/(.*)", "destination": "/gwennie.html" }
+    "routes": [
+      { "src": "/.*", "dest": "/index.html" }
     ]
   }
-  
